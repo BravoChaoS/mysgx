@@ -56,7 +56,7 @@ Enclave本地报告也叫做REPORT，只能在当前Enclave中有可信价值，
 
 对于远端Enclave的验证，QE会负责检测远端Enclave的可信程度以及它在远程认证过程中执行的环境。它会解密由PvE加密（利用*配置密封密钥 Provision Seal Key*）存储在CPU中的（从Intel配置服务器处接收的）SGX平台配置密钥，并使用该密钥将REPORT结构（用于本地Enclave的验证）**转换**为QUOTE结构（用于远程验证）。
 
-<img src="C:%5CBCSpace%5Cstudy%5CTEE%5Creport%5Cnote-for-RemoteAttestation.assets%5Cimage-20210417235039166.png" alt="image-20210417235039166" style="zoom: 80%;" />
+<img src="note-for-RemoteAttestation.assets/image-20210417235039166.png" alt="image-20210417235039166" style="zoom: 80%;" />
 
 如上图中，远程验证者发出挑战，验证该Enclave可信程度。Enclave使用EREPORT指令将挑战与自身绑定。然后不可信APP将本地认证EREPORT交给QE，QE推导Report Key来验证报告完整性。然后用Provisioning Seal Key来解密不可信系统软件返回的SGX平台长期配置密钥。QE用SGX平台长期认证密钥(本质是EPID私钥)签名本地认证报告，形成一个Quote。验证者收到认证响应Quote，将其交给Intel Quote服务，使用EPID组公钥（配置密钥使EPID私钥）来验证Quote。
 
@@ -74,7 +74,7 @@ Platform Service Enclaves (PSE)是一个架构型enclave，为其他enclave提�
 
 ### Key
 
-<img src="C:%5CBCSpace%5Cstudy%5CTEE%5Creport%5Cnote-for-RemoteAttestation.assets%5Cimage-20210417232222422.png" alt="image-20210417232222422" style="zoom:80%;" />
+<img src="note-for-RemoteAttestation.assets/image-20210417232222422.png" alt="image-20210417232222422" style="zoom:80%;" />
 
 ## Measurement
 
