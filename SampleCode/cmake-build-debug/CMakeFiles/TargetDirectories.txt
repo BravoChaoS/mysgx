@@ -1,0 +1,3 @@
+/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/CMakeFiles/SampleCode.dir

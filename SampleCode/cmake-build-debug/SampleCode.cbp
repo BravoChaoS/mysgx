@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SampleCode"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SampleCode">
+				<Option output="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/SampleCode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/App"/>
+					<Add directory="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveInitiator"/>
+					<Add directory="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveResponder"/>
+					<Add directory="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/Include"/>
+					<Add directory="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/util"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 SampleCode"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SampleCode/fast">
+				<Option output="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/SampleCode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/App"/>
+					<Add directory="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveInitiator"/>
+					<Add directory="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveResponder"/>
+					<Add directory="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/Include"/>
+					<Add directory="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/util"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 SampleCode/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/App/App.cpp">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/App/Makefile">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/App/UntrustedEnclaveMessageExchange.cpp">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/App/UntrustedEnclaveMessageExchange.h">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveInitiator/EnclaveInitiator.config.xml">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveInitiator/EnclaveInitiator.cpp">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveInitiator/EnclaveInitiator.edl">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveInitiator/EnclaveInitiator.lds">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveInitiator/EnclaveInitiator_private_test.pem">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveInitiator/EnclaveMessageExchange.cpp">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveInitiator/EnclaveMessageExchange.h">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveInitiator/Makefile">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveInitiator/ReadMe.txt">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveInitiator/Utility_E1.cpp">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveInitiator/Utility_E1.h">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveInitiator/datatypes.h">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveResponder/EnclaveMessageExchange.cpp">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveResponder/EnclaveMessageExchange.h">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveResponder/EnclaveResponder.config.xml">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveResponder/EnclaveResponder.cpp">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveResponder/EnclaveResponder.edl">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveResponder/EnclaveResponder.lds">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveResponder/EnclaveResponder_private_test.pem">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveResponder/Makefile">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveResponder/ReadMe.txt">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveResponder/Utility_E2.cpp">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveResponder/Utility_E2.h">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/EnclaveResponder/datatypes.h">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/Include/cpdef.h">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/Include/datatypes.h">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/Include/dh_session_protocol.h">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/Include/error_codes.h">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/Include/fifo_def.h">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/HelloLocalAttestation/util/fifo.cpp">
+			<Option target="SampleCode"/>
+		</Unit>
+		<Unit filename="/media/jojjiw/OS/BCSpace/study/TEE/SampleCode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

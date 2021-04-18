@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="b47f32f4-e495-493a-8e0b-a1f53912e5b5" name="SIM" defaultType="MAKE">
+      <configuration id="fc3f2c4b-f5d9-4c74-b200-3eac4fdf47a9" name="SIM">
+        <build type="MAKE">
+          <make targetName="SGX_MODE=SIM" />
+        </build>
+        <clean type="MAKE">
+          <make targetName="clean" />
+        </clean>
+      </configuration>
+    </target>
+  </component>
+</project>
