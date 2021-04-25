@@ -31,3 +31,33 @@ TEE是个公用大保险柜，什么东西都装进去，有漏洞的app可能�
 ### 总结
 
 ARM提供的标准中没有correctness measure， 默认相信Trustzone OS。Trustzone OS有可能被攻破，进而导致Trust App被篡改。
+
+
+
+## AMD SEV
+
+> [AMD Memory ENcryption white paper]([AMD_Memory_Encryption_Whitepaper_v7-Public.pdf](https://developer.amd.com/wordpress/media/2013/12/AMD_Memory_Encryption_Whitepaper_v7-Public.pdf))
+>
+> [AMD SEV-SNP: Strengthening VM Isolation with Integrity Protection and More](https://www.amd.com/system/files/TechDocs/SEV-SNP-strengthening-vm-isolation-with-integrity-protection-and-more.pdf)
+>
+> Secure Memory Encryption (SME) 是一种内存加密技术
+>
+> Secure Encrypted Virtualization (SEV) 是一种加密虚拟机技术
+
+SME： SME is a real time memory encryption technology. It makes the contents of the memory more resistant to memory snooping and cold boot attacks. The encryption key is manipulated by a “Security” Processor and is invisible to OS and application. 
+
+SEV： SEV utilizes the Secure Memory Encryption (SME) [14] technology to encrypt memory contents of a guest VM
+
+- SEV feature allows the memory contents of virtual machine(VM) to be transparently encrypted with key unique to each VM. The hypervisor could only read the cipher-text of the contents of VM. 
+
+SEV-SNP(Secure Nested Paging):  
+
+- 防止Integrity attack
+
+- VM将值A写入地址X，之后读取地址X的数据时，要么读取A，要么Exception。
+
+![image-20210425114308518](related-work.assets/image-20210425114308518.png)
+
+
+
+SEV技术主要用于防止Hypervisor读取VM的内容。至于VM内具体运行什么，SEV并不关心。
