@@ -142,6 +142,8 @@ The host may destroy the enclave at any time. On destruction, the SM clears the 
 
 - Enclave report contains:
 
-  A hash of the enclave at initializationA data block from the enclave of up-to 1KB in size
+  A hash of the enclave at initialization
+
+  A data block from the enclave of up-to 1KB in size
 
 和SGX较为相似。 
